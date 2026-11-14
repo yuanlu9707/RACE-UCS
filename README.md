@@ -70,7 +70,6 @@ RIRL (`use_ritrl` in the code) and CRE (`use_cre`) are both enabled by default i
 | `dataset` | `NCSU`  | `NCSU` or `purdue`                                                     |
 | `poi_num` | `48`    | Parser default; Purdue automatically selects 59 users                  |
 | `uav_num` | `5`     | Number of UAVs                                                         |
-| `max_episode_step` | `120`   | Episode length                                                         |                                             |
 | `--aoith n` | `30`    | AoI threshold, measured in time slots                                  |
 | `--txth n` | `1`     | Transmission-rate threshold, measured in Mbps                          |
 | `--update_num n` | `10`    | Number of antennas; a UAV can serve at most `n` users in one time slot |
