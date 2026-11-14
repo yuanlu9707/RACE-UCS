@@ -1,0 +1,22 @@
+# Suggested Python 3.8 compatibility baseline; not a validated environment lockfile.
+# For CUDA, install the matching torch build first (see README.md).
+torch==1.13.1
+numpy==1.23.5
+pandas==1.5.3
+gym==0.23.1
+cloudpickle==2.2.1
+json5==0.9.14
+tqdm==4.66.1
+tensorboardX==2.6.2.2
+tensorboard==2.13.0
+wandb==0.15.12
+
+# Plotting and geospatial trajectory rendering, including automatic rendering.
+matplotlib==3.7.5
+seaborn==0.12.2
+folium==0.14.0
+shapely==1.8.5.post1
+geopandas==0.12.2
+movingpandas==0.16.1
+fiona==1.9.6
+pyproj==3.6.1
