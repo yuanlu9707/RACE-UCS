@@ -62,8 +62,7 @@ python main_DPPO.py --dataset purdue --device cuda:0 --group purdue
 ```
 
 
-
-RIRL (`use_ritrl` in the code) and CRE (`use_cre`) are both enabled by default in the current configuration. Important settings in [`source_code/get_args.py`](source_code/get_args.py) include:
+Important settings in [`source_code/get_args.py`](source_code/get_args.py) include:
 
 | Parameter | Default | Meaning                                                                |
 | --- |---------|------------------------------------------------------------------------|
